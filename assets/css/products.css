@@ -1,0 +1,152 @@
+
+
+
+.product-desc {
+  display: inline-table;
+  height: 100px;
+  width: 100px;
+  font-size: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
+  left: 0;
+  right: 0;
+
+}
+
+.products_box {
+  margin-bottom: 30px; 
+
+  width: 350px ;
+  height: 350px;
+
+  margin-bottom: 150px;
+}
+
+.products_box figure {
+  margin: 0;
+}
+
+.products_box figure img {
+  width: 100%;
+}
+
+.products_box:hover {
+  cursor: pointer;
+}
+
+.product-spec-table, .td-product-spec-col-title, .td-product-spec-col-detial {
+    border: 1px solid white;
+    border-collapse: collapse;
+  }
+  
+  .td-product-spec-col-title, .td-product-spec-col-detial {
+     background-color: #d6d6d6; 
+  }
+  
+  .td-product-spec-col-title {
+    
+    font-size: 15px;
+    font-weight: bold;
+    text-align: right;
+  }
+  
+  .td-product-spec-col-detial {
+    text-align: right;
+  }
+  
+
+  .consult-projectDetail__content {
+    margin-top: -80px;
+    padding: 0 20px 0;
+}
+
+.product-details-image img {
+    display: inline;
+    width: 300px !important;
+    
+}
+
+.product-read_more {
+  font-size: 15px;
+  background-color: transparent;
+  color: #7a7a7a;
+  padding: 2px 0px;
+  width: 40%;
+  max-width: 190px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 30px;
+  border: #00aaea solid 3px;
+  transition: ease-in all 0.5s;
+ 
+  margin-top: 50px;
+  margin-bottom: 0px;
+  float: left;
+}
+
+.product-read_more i {
+  padding-left: 5px;
+
+}
+
+.product-read_more:hover {
+  background: #00aaea;
+  color: #fff !important;
+  transition: ease-in all 0.5s;
+  cursor: pointer;
+}
+
+
+
+.product-open {
+  font-size: 15px;
+  background-color: transparent;
+  color: #7a7a7a;
+  padding: 2px 0px;
+  width: 80%;
+  max-width: 190px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 30px;
+  border: #00aaea solid 3px;
+  transition: ease-in all 0.5s;
+ 
+  margin-top: 30px;
+  margin-bottom: 30px;
+  float: left;
+}
+
+.product-open i {
+  padding-left: 5px;
+
+}
+
+.product-open:hover {
+  background: #00aaea;
+  color: #fff !important;
+  transition: ease-in all 0.5s;
+  cursor: pointer;
+}
+
+
+.product-btn-middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  
+  
+  -ms-transform: translate(-50%, -50%); 
+  transform: translate(-50%, -50%);
+  
+  text-align: center;
+}
+
+.grid-item__content-wrapper:hover .product-image {
+  opacity: 0.3;
+}
+
+.grid-item__content-wrapper:hover .product-btn-middle {
+  opacity: 1;
+}
